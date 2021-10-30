@@ -1,0 +1,50 @@
+/* les ressource externes referencee dans cette page sont image et fichier */
+img {
+    border: 1px solid red ;
+}
+h1{
+    background: black;
+}
+h1,h2{
+    color: gray;
+}
+.s h2 {
+    border:1px solid green;
+}
+#mon > span {
+    color: hotpink;
+
+}
+.m div{
+    border: 1px solid red;
+}
+.m > div > span {
+    background-color: yellow;
+}
+.w h2:hover{
+    color: green;
+}
+.m h2:hover, #tue h2:hover{
+    color: red;
+}
+h1,h2{
+    color: hotpink;
+} /* On observe que la dernière règle est implémentée  */
+li:first-of-type{
+    font-weight: bold;
+}
+li:first-of-type + li{
+    color: red;
+}
+#tue > div span:first-of-type{
+    color: blue;
+}
+#tue > div span:nth-of-type(2){
+   font-size: 200%;
+}
+li:nth-of-type(9){
+    color: blue;
+}
+li:nth-of-type(5n+3){
+    color: green;
+} 
